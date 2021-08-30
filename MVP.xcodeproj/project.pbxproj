@@ -80,6 +80,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC480D3F26DD04FF0080BFCC /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				ECEAB3C826D78AC6002D56A5 /* Model */,
+				EC480D4026DD05220080BFCC /* View */,
+				ECEAB3CB26D78B27002D56A5 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		EC480D4026DD05220080BFCC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECEAB39A26D78956002D56A5 /* MainViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECEAB38A26D78956002D56A5 = {
 			isa = PBXGroup;
 			children = (
@@ -103,11 +121,9 @@
 		ECEAB39526D78956002D56A5 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
+				EC480D3F26DD04FF0080BFCC /* MainModule */,
 				ECEAB3C726D78ABC002D56A5 /* App */,
 				ECEAB3C626D78AAD002D56A5 /* Resources */,
-				ECEAB3CB26D78B27002D56A5 /* Presenter */,
-				ECEAB3C826D78AC6002D56A5 /* Model */,
-				ECEAB39A26D78956002D56A5 /* MainViewController.swift */,
 				ECEAB39C26D78956002D56A5 /* Main.storyboard */,
 			);
 			path = MVP;
